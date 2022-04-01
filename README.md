@@ -42,14 +42,14 @@ el segundo mediante el token generado en el login y el nombre de una provincia d
 
 
 ## Swagger
-Se utilizo swagger para la documentacion de la api
+Se utilizó swagger para la documentación de la api.
 
 ## NLog
-Se utilizo NLog para los logs. La ubicacion de log es "C:\Log\applog-${shortdate}.log"
+Se utilizó NLog para los logs. La ubicación del archivo de log es "C:\Log\applog-${shortdate}.log".
 
 ## Aclaraciones
-- No utilice base de datos porque para el login se pedia un unico usuario parametrizado, el cual se setea mediante el appsetings.json
-- El token es unico y esta hardcodeado a modo de prueba. En una api real tendria un metodo que lo genere y lo persisteria en la base para luego validar si todavia esta activo o caduco
-- Se realizaron pruebas unitarias para ambos endpoints
-- En caso que hubiera usado base de datos. Habria utilizado entityFramework y code first: crear el context, agregar la migracion y updetear la base
-- En caso de tener base de datos tambien hubiera agregado la Service layer y la DAL
+- No utilice base de datos porque para el login se pedia un unico usuario parametrizado, el cual se setea mediante el appsetings.json.
+- El token es unico y esta hardcodeado a modo de prueba. En una api real tendria un metodo que lo genere y lo persisteria en la base para luego validar si todavia esta activo o caduco.
+- Se realizaron pruebas unitarias para ambos endpoints.
+- En caso que hubiera usado base de datos. Habria utilizado entityFramework y code first: crear el context, agregar la migracion y updetear la base.
+- En caso de tener base de datos tambien hubiera agregado la Service layer y la DAL.
